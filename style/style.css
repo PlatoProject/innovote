@@ -31,14 +31,15 @@ hr {border-top:1px solid #e2e2e2; margin:40px 0;}
 	.content p {color:#666; font-size:.8em;}
 	.content .description {font-size:1.2em; margin-bottom:40px;}
 	.content .description.double {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; margin-bottom:40px;}
-	.content .feature {margin:0; padding:0; padding-top:40px;border-top:1px solid #e2e2e2;}
+	.content .feature {margin:0; padding:0; padding-top:40px;}
 	.content .feature li {list-style:none; float:left; width:280px; margin:0; padding:0; padding-left:90px;}
 	.content .feature li.safe {background:transparent url(../img/icn_safe.png) 0 10px no-repeat;margin-right:40px;}
 	.content .feature li.smart {background:transparent url(../img/icn_smart.png) 0 10px no-repeat;}
-	.content .feature li.ios-android {background:transparent url(../img/droid-apple-logo-black.png) 0 10px no-repeat;margin-right:40px; width:600px; padding-left:150px;}
+	.content .feature li.ios-android {background:transparent url(../img/droid-apple-logo-black.png) 0 0px no-repeat;margin-right:40px; width:600px; padding-left:150px;}
 		.content .feature li.ios-android li {font-size:.8em; list-style:disc; padding-left:10px;}
 	.content .download a {display:block; width:350px; margin:40px auto; background-color:#1da0e4; color:#fff; text-decoration:none; text-align:center; padding:15px 0; border-radius:6px; font-size:1.2em;}
 	.content .download a:hover {background-color:#222;}
+	section.content.bottom-divider > div:last-child {border-bottom:1px solid #e2e2e2; padding-bottom:60px;}
 
 .promo {width:100%; background-color:#0f2105; display:block; text-decoration:none; }
 	.promo:hover {background-color:#14e06e;}
