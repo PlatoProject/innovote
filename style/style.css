@@ -39,7 +39,7 @@ hr {border-top:1px solid #e2e2e2; margin:40px 0;}
 	.content .feature li.smart {background:transparent url(../img/icn_smart.png) 0 10px no-repeat;}
 	.content .feature li.securevoter {background:transparent url(../img/icn_securevoter.png) 0 10px no-repeat;margin-right:40px;}
 	.content .feature li.ballotchain {background:transparent url(../img/icn_ballotchain.png) 0 10px no-repeat;}
-	.content .feature li.ios-android {background:transparent url(../img/droid-apple-logo-black.png) 0 60px no-repeat;margin-right:40px; width:600px; padding-left:150px;}
+	.content .feature li.ios-android {background:transparent url(../img/droid-apple-logo-black.png) 0 40px no-repeat;margin-right:40px; width:600px; padding-left:150px;}
 		.content .feature li.ios-android li {font-size:.8em; list-style:disc; padding-left:10px;}
 		.content .feature li.ios-android h3 {margin-left:-150px;}
 
