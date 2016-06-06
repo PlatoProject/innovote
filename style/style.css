@@ -23,23 +23,37 @@ hr {border-top:1px solid #e2e2e2; margin:40px 0;}
 	.header .intro li a.highlight {background-color:#1da0e4; border-color:#4fb4e9;}
 	.header .intro li a:hover {background-color:#0b367f;}
 
-.content {margin-top:80px;}
+.content {margin-top:20px;}
+.content.first-content {margin-top:80px;}
 	.content .container {width:800px;}
 	.content h3 {ont-family: 'Oswald', sans-serif; text-transform: uppercase; font-weight:700; font-size: 1.7em;}
 	.content h6 {margin-bottom:10px; padding-top:20px;}
 	.content h6 span {background-color:#ff4f4f; color:#fff;padding:5px 10px; font-size:1.2em; text-transform: uppercase;font-weight: normal;}
 	.content p {color:#666; font-size:.8em;}
-	.content .description {font-size:1.2em; margin-bottom:40px;}
-	.content .description.double {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; margin-bottom:40px;}
-	.content .feature {margin:0; padding:0; padding-top:40px;}
+	.content .description {font-size:1.2em; margin-bottom:20px;}
+	.content .description.double {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; margin-bottom:20px;}
+	.content .description.double p:first-child {margin-top:0;}
+	.content .feature {margin:0; padding:0; padding-top:0px;}
 	.content .feature li {list-style:none; float:left; width:280px; margin:0; padding:0; padding-left:90px;}
 	.content .feature li.safe {background:transparent url(../img/icn_safe.png) 0 10px no-repeat;margin-right:40px;}
 	.content .feature li.smart {background:transparent url(../img/icn_smart.png) 0 10px no-repeat;}
-	.content .feature li.ios-android {background:transparent url(../img/droid-apple-logo-black.png) 0 0px no-repeat;margin-right:40px; width:600px; padding-left:150px;}
+	.content .feature li.securevoter {background:transparent url(../img/icn_securevoter.png) 0 10px no-repeat;margin-right:40px;}
+	.content .feature li.ballotchain {background:transparent url(../img/icn_ballotchain.png) 0 10px no-repeat;}
+	.content .feature li.ios-android {background:transparent url(../img/droid-apple-logo-black.png) 0 60px no-repeat;margin-right:40px; width:600px; padding-left:150px;}
 		.content .feature li.ios-android li {font-size:.8em; list-style:disc; padding-left:10px;}
-	.content .download a {display:block; width:350px; margin:40px auto; background-color:#1da0e4; color:#fff; text-decoration:none; text-align:center; padding:15px 0; border-radius:6px; font-size:1.2em;}
+		.content .feature li.ios-android h3 {margin-left:-150px;}
+
+	.content .download a {display:block; width:350px; margin:40px auto; margin-bottom:0; background-color:#1da0e4; color:#fff; text-decoration:none; text-align:center; padding:15px 0; border-radius:6px; font-size:1.2em;}
+	.content.call-to-action .download a {display:block; width:350px; margin:40px auto; margin-top:10px; margin-bottom:0; background-color:#1da0e4; color:#fff; text-decoration:none; text-align:center; padding:15px 0; border-radius:6px; font-size:1.2em;}
 	.content .download a:hover {background-color:#222;}
-	section.content.bottom-divider > div:last-child {border-bottom:1px solid #e2e2e2; padding-bottom:60px;}
+
+	.content .kickstart a {display:block; width:350px; margin:40px auto; margin-bottom:0; background-color:#2ade73; color:#fff; text-decoration:none; text-align:center; padding:15px 0; border-radius:6px; font-size:1.2em;}
+	.content.call-to-action .kickstart a {display:block; width:350px; margin:40px auto; margin-top:10px; margin-bottom:0; background-color:#2ade73; color:#fff; text-decoration:none; text-align:center; padding:15px 0; border-radius:6px; font-size:1.2em;}
+	.content .kickstart a:hover {background-color:#222;}
+
+
+	section.content > div:last-child {border-bottom:1px solid #e2e2e2; padding-bottom:20px;}
+	
 
 .promo {width:100%; background-color:#0f2105; display:block; text-decoration:none; }
 	.promo:hover {background-color:#14e06e;}
@@ -58,6 +72,14 @@ footer {margin-top:80px; background-color:#f0f0f0; border-top:1px solid #e2e2e2;
 .internal footer {position:fixed; bottom:0;left:0; width:100%;}
 .internal .content {margin-top:40px; padding-bottom:200px;}
 .internal .content .container {width:700px;}
+
+.right {float:right;}
+.left {float:left;}
+
+.left-image {float:left; min-height:200px; display:block; margin-top:50px;}
+
+.padded {padding:15px;}
+.small-margin {margin:10px 10px 10px 10px;}
 
 /* ---- clearfix ---- */
 .clear:after {content: ''; display: block; clear: both;}	
