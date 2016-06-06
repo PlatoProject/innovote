@@ -1,0 +1,81 @@
+body {color:#222; font: 19px/1.4 sans-serif; margin:0; padding:0; font-family: 'Roboto', sans-serif;}
+h1, h2, h3, h4, h5, h6 {margin:0;}
+h1 {font-family: 'Oswald', sans-serif; text-transform: uppercase; font-weight:400; font-size: 4.0em;}
+h2 {font-weight:100; text-transform: uppercase; line-height:1.1em; font-size:1.2em;}
+hr {border-top:1px solid #e2e2e2; margin:40px 0;}
+.container {width:960px; margin:0 auto; padding:0px 30px; font-size:.8em;}
+
+.header {width:100%; color:#fff; background:#0b367f url(../img/bg.png) 0 0 no-repeat; background-size:cover;}
+	.header .container {min-height:550px; background:transparent url(../img/graphic_preview.png) right bottom no-repeat;}
+
+	.header .nav {width:990px; margin:0; padding:30px 0; border-bottom:2px solid #34aae7;}
+	.header .nav .brand {font-family: 'Oswald', sans-serif; text-transform: uppercase; font-weight:700; font-size:1.8em; margin-right:258px;}
+	.header .nav .brand a strong {color:#ff4f4f;}
+	.header .nav li {list-style:none; display:inline;}
+	.header .nav li a {font-size:0.9em; color:#fff; text-decoration:none; font-weight:300;margin-left:20px; padding:5px 10px; }
+	.header .nav li a:hover {background-color:#fff; color:#0b367f; border-radius:5px;}
+
+	.header .intro {width:400px; margin-top:150px; padding-left:120px; background:transparent url(../img/graphic_brand.png) 0 12px no-repeat;}
+	.header .intro h1 {margin-bottom:8px;}
+	.header .intro ul {margin:0; padding:0; margin-top:50px;}
+	.header .intro li {list-style:none; display:inline; margin-right:8px;}
+	.header .intro li a {font-family: 'Oswald', sans-serif; text-transform:uppercase; font-size:1.1em; font-weight:300; text-decoration:none; color:#fff; padding:10px 30px;border:2px solid #fff; border-radius:6px;}
+	.header .intro li a.highlight {background-color:#1da0e4; border-color:#4fb4e9;}
+	.header .intro li a:hover {background-color:#0b367f;}
+
+.content {margin-top:80px;}
+	.content .container {width:800px;}
+	.content h3 {ont-family: 'Oswald', sans-serif; text-transform: uppercase; font-weight:700; font-size: 1.7em;}
+	.content h6 {margin-bottom:10px; padding-top:20px;}
+	.content h6 span {background-color:#ff4f4f; color:#fff;padding:5px 10px; font-size:1.2em; text-transform: uppercase;font-weight: normal;}
+	.content p {color:#666; font-size:.8em;}
+	.content .description {font-size:1.2em; margin-bottom:40px;}
+	.content .description.double {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; margin-bottom:40px;}
+	.content .feature {margin:0; padding:0; padding-top:40px;border-top:1px solid #e2e2e2;}
+	.content .feature li {list-style:none; float:left; width:280px; margin:0; padding:0; padding-left:90px;}
+	.content .feature li.safe {background:transparent url(../img/icn_safe.png) 0 10px no-repeat;margin-right:40px;}
+	.content .feature li.smart {background:transparent url(../img/icn_smart.png) 0 10px no-repeat;}
+	.content .feature li.ios-android {background:transparent url(../img/droid-apple-logo-black.png) 0 10px no-repeat;margin-right:40px; width:600px; padding-left:150px;}
+		.content .feature li.ios-android li {font-size:.8em; list-style:disc; padding-left:10px;}
+	.content .download a {display:block; width:350px; margin:40px auto; background-color:#1da0e4; color:#fff; text-decoration:none; text-align:center; padding:15px 0; border-radius:6px; font-size:1.2em;}
+	.content .download a:hover {background-color:#222;}
+
+.promo {width:100%; background-color:#0f2105; display:block; text-decoration:none; }
+	.promo:hover {background-color:#14e06e;}
+	.promo:hover .kickstarter {background-image:url(../img/graphic_kickstarter_dark.png);}
+	.promo:hover .kickstarter p {color:#fff;}
+	.promo .kickstarter {height:40px; padding:10px; text-align:center; color:#fff; background:transparent url(../img/graphic_kickstarter.png) 10px center no-repeat; position: relative;}
+	.promo .kickstarter p {margin-top:10px; color:#bbb;}
+	.promo .kickstarter p span.button {display:block; position:absolute; right:0; top:15px; color:#fff; padding:5px 15px; border:1px solid #fff; border-radius:6px; text-transform: uppercase; font-size:.8em;}
+	.promo .kickstarter p span.button:hover {background-color:#2ade73;}
+
+footer {margin-top:80px; background-color:#f0f0f0; border-top:1px solid #e2e2e2;}
+	footer .container {padding:15px 0;  font-size:.6em; color:#999; text-align:center;}
+
+.internal .header .container {background-image:none; min-height:100px;}
+.internal .header .nav {border:none;}
+.internal footer {position:fixed; bottom:0;left:0; width:100%;}
+.internal .content {margin-top:40px; padding-bottom:200px;}
+.internal .content .container {width:700px;}
+
+/* ---- clearfix ---- */
+.clear:after {content: ''; display: block; clear: both;}	
+
+/* ---- Media Styles ---- */
+@media screen and (max-width: 800px) {
+	h1 {font-size:3.0em;}
+	.container {width:90%; padding:0 5%;}
+	.header .container {min-height:auto; padding-bottom:50px;}
+	.header .nav {width:100%;}
+	.header .nav .brand {margin-right:5px;}
+	.header .nav li a {margin-left:5px;}
+	.header .nav li.nav03 {display:none;}
+	.header .intro {width:auto; margin-top:30px; padding-left:0; padding-top:140px;}
+	.content {margin-top:20px;}
+	.content .container, .internal .content .container {width:90%;}
+	.content .description {-webkit-column-count: 1; -moz-column-count: 1; column-count: 1;}
+	.header .container {background:none;}
+	.promo .kickstarter p {visibility: hidden;}
+	.promo .kickstarter p span {visibility: visible;}
+
+}
