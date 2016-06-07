@@ -31,7 +31,6 @@ hr {border-top:1px solid #e2e2e2; margin:40px 0;}
 	.content h6 span {background-color:#ff4f4f; color:#fff;padding:5px 10px; font-size:1.2em; text-transform: uppercase;font-weight: normal;}
 	.content p {color:#666; font-size:.8em;}
 	.content .description {font-size:1.2em; margin-bottom:20px;}
-	.content .description.double {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; margin-bottom:20px;}
 	.content .description.double p:first-child {margin-top:0;}
 	.content .feature {margin:0; padding:0; padding-top:0px;}
 	.content .feature li {list-style:none; float:left; width:180px; margin:0; padding:0; padding-left:90px;}
@@ -75,7 +74,9 @@ footer {margin-top:80px; background-color:#f0f0f0; border-top:1px solid #e2e2e2;
 .right {float:right;}
 .left {float:left;}
 
-.left-image {float:left; min-height:200px; display:block; margin-top:50px;}
+.right-image {float:right;}
+
+.left-image {float:left; }
 
 .padded {padding:15px;}
 .small-margin {margin:10px 10px 10px 10px;}
@@ -117,9 +118,10 @@ footer {margin-top:80px; background-color:#f0f0f0; border-top:1px solid #e2e2e2;
 
 
 @media screen and (min-width: 768px) {
-		.content .download a, .content.call-to-action .download a, .content.call-to-action .kickstart a, .content .kickstart a {width:350px;}
-		.content .feature li {width:580px;}
-		.content .feature li.ios-android {background:transparent url(../img/droid-apple-logo-black.png) 0 40px no-repeat;margin-right:40px; width:400px; padding-left:150px;}
+	.content .description.double {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; margin-bottom:20px;}
+	.content .download a, .content.call-to-action .download a, .content.call-to-action .kickstart a, .content .kickstart a {width:350px;}
+	.content .feature li {width:510px;}
+	.content .feature li.ios-android {background:transparent url(../img/droid-apple-logo-black.png) 0 40px no-repeat;margin-right:40px; width:400px; padding-left:150px;}
 }
 
 @media screen and (min-width:800px) {
