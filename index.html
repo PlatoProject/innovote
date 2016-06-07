@@ -179,10 +179,17 @@
 
 
 <a name="getinvolved"></a>
-<section class="content call-to-action small-margin">
-  <div class="container clear"> 
-  	<p class="download left"><a class="small-margin" href="/whitepaper/Inno.vote — Bringing Democracy to Elections.pdf">Learn More: Download The White Paper</a></p>
-  	<p class="kickstart right"><a class="small-margin" href="">Get Involved: Back the Kickstarter</a></p>
+<section class="content small-margin">
+  <div class="container clear">
+    <div class="description">
+      <h3>Get involved with Inno.vote today</h3>
+      <p>We at Inno.vote are excited about the future of voting in America, but we can't do it all alone. Please join us and get involved today by reading the whitepaper, backing our Kickstarter, and signing up for our updates list.</p>
+    	<p class="download left"><a class="small-margin" href="/whitepaper/Inno.vote — Bringing Democracy to Elections.pdf">Learn More: Download The White Paper</a></p>
+    	<p class="kickstart right"><a class="small-margin" href="">Get Involved: Back the Kickstarter.</a></p>
+    </div>
+  </div>
+  <div class="container clear description">
+    <p class="mailing"><a class="small-margin" id="open-popup" href="#">Join the mailing list.</a></p>
   </div>
 </section>
 
@@ -202,7 +209,15 @@ Array.prototype.forEach.call(
     }
 );
 </script>
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us13.list-manage.com","uuid":"66994993099cac761010dab03","lid":"05efcc7585"}) })</script>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script>
+function showMailingPopUp() {
+    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"66994993099cac761010dab03","lid":"05efcc7585"}) })
+    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+};
+
+document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
+</script>
 </body>
 
 </html>

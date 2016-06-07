@@ -45,9 +45,13 @@ hr {border-top:1px solid #e2e2e2; margin:40px 0;}
 	.content.call-to-action .download a {display:block; width:260px; margin:40px auto; margin-top:10px; margin-bottom:0; background-color:#1da0e4; color:#fff; text-decoration:none; text-align:center; padding:15px 0; border-radius:6px; font-size:1.2em;}
 	.content .download a:hover {background-color:#222;}
 
-	.content .kickstart a {display:block; width:260px; margin:40px auto; margin-bottom:0; background-color:#2ade73; color:#fff; text-decoration:none; text-align:center; padding:15px 0; border-radius:6px; font-size:1.2em;}
-	.content.call-to-action .kickstart a {display:block; width:260px; margin:40px auto; margin-top:10px; margin-bottom:0; background-color:#2ade73; color:#fff; text-decoration:none; text-align:center; padding:15px 0; border-radius:6px; font-size:1.2em;}
+	.content .kickstart a {display:block; width:260px; margin:40px auto; margin-bottom:0; background-color:#f6921e; color:#fff; text-decoration:none; text-align:center; padding:15px 0; border-radius:6px; font-size:1.2em;}
+	.content.call-to-action .kickstart a {display:block; width:260px; margin:40px auto; margin-top:10px; margin-bottom:0; background-color:#f6921e; color:#fff; text-decoration:none; text-align:center; padding:15px 0; border-radius:6px; font-size:1.2em;}
 	.content .kickstart a:hover {background-color:#222;}
+
+	.content .mailing a {display:block; width:260px; margin:40px auto; margin-bottom:0; background-color:#2ade73; color:#fff; text-decoration:none; text-align:center; padding:15px 0; border-radius:6px; font-size:1.2em;}
+	.content.call-to-action .mailing a {display:block; width:260px; margin:40px auto; margin-top:10px; margin-bottom:0; background-color:#2ade73; color:#fff; text-decoration:none; text-align:center; padding:15px 0; border-radius:6px; font-size:1.2em;}
+	.content .mailing a:hover {background-color:#222;}
 
 
 	section.content > div:last-child {border-bottom:1px solid #e2e2e2; padding-bottom:20px;}
@@ -119,7 +123,7 @@ footer {margin-top:80px; background-color:#f0f0f0; border-top:1px solid #e2e2e2;
 
 @media screen and (min-width: 768px) {
 	.content .description.double {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; margin-bottom:20px;}
-	.content .download a, .content.call-to-action .download a, .content.call-to-action .kickstart a, .content .kickstart a {width:350px;}
+	.content .download a, .content.call-to-action .download a, .content.call-to-action .kickstart a, .content .kickstart a, .content.call-to-action .mailing a, .content .mailing a {width:350px;}
 	.content .feature li {width:510px;}
 	.content .feature li.ios-android {background:transparent url(../img/droid-apple-logo-black.png) 0 40px no-repeat;margin-right:40px; width:400px; padding-left:150px;}
 }
