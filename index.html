@@ -156,7 +156,16 @@
   <img src="img/dc-flag.png"/>
 </div>
 </footer>
+<script>
+var extAnchors = document.querySelectorAll('a[rel*=external]');
 
+Array.prototype.forEach.call(
+    extAnchors,
+    function (el, i) {
+        el.setAttribute('target', '_blank');
+    }
+);
+</script>
 </body>
 
 </html>
